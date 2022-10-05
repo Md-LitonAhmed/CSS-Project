@@ -1,0 +1,117 @@
+body{
+    color: white;
+    font-family:'Nunito', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 30px;
+}
+header .logo{
+    float: left;
+    
+    width: 20%;
+}
+header .logo h3{
+    font-size: 45px;
+    line-height: 0;
+    color: #fba3f2;
+    font-weight: 700;
+
+}
+header .logo h3 span{
+    color: yellowgreen;
+}
+header .nav{
+    float: right;
+    width: 80%;
+    text-align: right;
+}
+header .nav ul li{
+    display: inline-block;
+
+    }
+header .nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    }
+    
+
+    #top{
+        background-image: url("food3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #top::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        bottom: -240px;
+        left: 0;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+     header .nav ul li:first-child a{
+        color: #fbaf32;
+    }
+
+    .middle{
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin-top: 190px;
+        padding-bottom: 235px;
+
+    }
+    .middle h2{
+        font-size:60px ;
+        line-height:72px;
+        font-weight: 600;
+        color: white;
+    }
+    .middle h2 span{
+        color: #fbaf32;
+    }
+    .middle p{
+        font-size:20px ;
+        line-height: 30px;
+        font-weight:400 ;
+        color: white;
+    }
+    .middle a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-right:20px ;
+        font-weight: 400;
+    }
+    
+    .middle a:hover{
+        background-color: transparent;
+    }
+    .middle .view {
+        
+        background-color: #fbaf32;
+        border: 1px solid #fbaf32;
+    }
+
+    .middle .book {
+        background-color: green;
+        border: 1px solid green;
+        margin-right: 0;
+
+    }
