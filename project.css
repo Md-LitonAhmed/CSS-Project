@@ -48,7 +48,7 @@ header .nav ul li a{
     
 
     #top{
-        background-image: url("food3.jpg");
+        background-image: url("./Images/food3.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
